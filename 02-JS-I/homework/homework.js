@@ -36,14 +36,14 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: 
-  return x + b;
+  return x + y;
   
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código: 
-  return y - x;
+  return x - y;
   
 }
 
@@ -77,9 +77,9 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1.lenght == str2.lenght) {
-     return true;
+     return false;
     } else {
-      return false;
+      return true;
     }     
 }
 
@@ -195,7 +195,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return (nombre + apellido);
+  return (nombre + ' ' apellido);
   
 }
 
@@ -203,7 +203,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola" + "nombre";
+  return "hola" + "nombre" + " ! ";
   
 }
 
@@ -247,9 +247,9 @@ function esVocal(letra){
   if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") {
    return "Es vocal";
   }
-  return "Dato Incorrecto";
+  return "Dato incorrecto";
   if (letra.lenght > 1); {
-   return "Dato Incorrecto";
+   return "Dato incorrecto";
   }
 }
 
